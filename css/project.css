@@ -1,0 +1,60 @@
+.project h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 17px;
+}
+
+.content-title::after {
+    content: '';
+    position: absolute;
+    background-color: #7ac1ff;
+    height: 3px;
+    width: 80%;
+    bottom: 0px;
+    left: 10%;
+}
+
+.container-fluid .post h2 {
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.container-fluid .post h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-img-container {
+    width: 100%;
+    border: 2px solid rgb(240, 230, 230);
+}
+
+.main-img-container img {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.post .main-text-container,
+p {
+    padding: 0px 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.light-blue {
+    background-color: #eef7ff;
+}
+
+.light-gray {
+    background-color: #efefef;
+}
+
+.project p {
+    color: black;
+    font-weight: 400;
+}

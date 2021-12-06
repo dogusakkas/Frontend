@@ -1,0 +1,65 @@
+section .slider-area {
+    margin-top: 45px;
+}
+
+.search-area {
+    background-color: #353c42;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.search-area .form-text {
+    border: 2px solid #7ac1ff;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 13px;
+}
+
+.search-area .button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid #7ac1ff;
+    color: #7ac1ff;
+    background-color: #353c42;
+}
+
+.search-area .button:hover {
+    background-color: #7ac1ff;
+    color: black;
+    transition: 0.3s;
+}
+
+.search-area .form-text2 {
+    background-color: #4A505A;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #4A505A;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.form-text2::placeholder {
+    color: #ffffff;
+}
+
+.search-area .quick-button {
+    height: auto;
+    width: 100%;
+    background-color: #4A505A;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: .6rem!important;
+}
+
+.search-area .quick-button .badge {
+    margin-top: 5px;
+    background-color: #353c42;
+}
+
+.search-area .quick-button .badge:hover {
+    transform: scale(1.25);
+    transition: 0.4s;
+    z-index: 1;
+}

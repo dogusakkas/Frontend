@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* Header Section */
+
+header {
+    height: 120px;
+    background-color: #353c42;
+    border-bottom: 4px solid #7ac1ff;
+}
+
+header .logo {
+    position: absolute;
+    left: 80px;
+}
+
+header img {
+    height: 115px;
+}
+
+header .social-media {
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    padding-top: 25px;
+    color: white;
+}
+
+header .social-media .fab {
+    font-size: 17px;
+    margin: 0px 20px;
+}

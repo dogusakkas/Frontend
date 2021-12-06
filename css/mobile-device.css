@@ -1,0 +1,20 @@
+@media(max-width:768px) {
+    header {
+        height: auto;
+    }
+    header .logo {
+        padding-left: 100px;
+    }
+    header .logo img {
+        padding-top: 10px;
+        height: 90px;
+    }
+    .social-media {
+        text-align: left !important;
+        width: 50% !important;
+        float: left;
+    }
+    .mobil-menu {
+        float: right;
+    }
+}

@@ -1,0 +1,36 @@
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .slide-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.owl-carousel img {
+    border-radius: 10px;
+    height: 320px;
+}
+
+.owl-carousel .owl-nav {
+    text-align: right;
+    position: absolute;
+    z-index: 99;
+    bottom: 40px;
+    right: 15px;
+}
+
+.owl-carousel .owl-next .fas,
+.owl-prev .fas {
+    color: white;
+    opacity: 0.7;
+    margin: 0px 5px;
+    font-size: 17px;
+}
+
+.owl-carousel .owl-next .fas:hover,
+.owl-prev .fas:hover {
+    opacity: 1;
+    transition: 0.2s;
+    transform: scale(1.25);
+}
