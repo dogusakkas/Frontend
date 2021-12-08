@@ -62,3 +62,8 @@ p {
     color: black;
     font-weight: 400;
 }
+
+#videoFrame {
+    width: 560px;
+    height: 315px;
+}

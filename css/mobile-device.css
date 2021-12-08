@@ -70,4 +70,8 @@
     .social-media {
         width: 100%;
     }
+    #videoFrame {
+        width: 300px !important;
+        height: 250px !important;
+    }
 }
